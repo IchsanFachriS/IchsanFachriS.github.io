@@ -28,16 +28,16 @@
         }
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
+      }
+      
+      var sidemenu = document.getElementById("sidemenu");
 
-        var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0px";
+      }
 
-        function openmenu() {
-          sidemenu.style.right = "0px";
-        }
-
-        function closemenu() {
-          sidemenu.style.right = "-200px";
-        }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
       }
     </script>
 
