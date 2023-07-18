@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <script>
+    <script type="text/JavaScript">
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -28,17 +28,16 @@
         }
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
-      }
-    </script>
-    <script>
-      var sidemenu = document.getElementById("sidemenu");
 
-      function openmenu() {
-        sidemenu.style.right = "0px";
-      }
+        var sidemenu = document.getElementById("sidemenu");
 
-      function closemenu() {
-        sidemenu.style.right = "-200px";
+        function openmenu() {
+          sidemenu.style.right = "0px";
+        }
+
+        function closemenu() {
+          sidemenu.style.right = "-200px";
+        }
       }
     </script>
 
