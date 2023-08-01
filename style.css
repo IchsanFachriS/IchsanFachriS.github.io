@@ -82,7 +82,7 @@ nav ul li a:hover:after {
 }
 
 .header-text img {
-    max-width: 30%;
+    max-width: 40%;
     float: right;
     margin-top: -300px;
 }
@@ -418,7 +418,7 @@ nav .fa-solid {
         margin: 25px;
     }
 
-    nav ul .fa-solid.fa-xmark {
+    nav ul .fa-solid {
         position: absolute;
         top: 25px;
         left: 25px;
